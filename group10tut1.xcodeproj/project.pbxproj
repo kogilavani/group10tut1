@@ -14,6 +14,9 @@
 		E66AC8A51B2F693800B84A14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66AC8A41B2F693800B84A14 /* Images.xcassets */; };
 		E66AC8A81B2F693800B84A14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66AC8A61B2F693800B84A14 /* LaunchScreen.xib */; };
 		E66AC8B41B2F693800B84A14 /* group10tut1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E66AC8B31B2F693800B84A14 /* group10tut1Tests.m */; };
+		E66AC8BF1B2F705F00B84A14 /* SeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66AC8BE1B2F705F00B84A14 /* SeViewController.m */; };
+		E66AC8C51B2F7A9C00B84A14 /* ThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66AC8C41B2F7A9C00B84A14 /* ThirdController.m */; };
+		E66AC8C71B2F7E6500B84A14 /* Big Data.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E66AC8C61B2F7E6500B84A14 /* Big Data.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +36,18 @@
 		E66AC89B1B2F693800B84A14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E66AC89C1B2F693800B84A14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E66AC89E1B2F693800B84A14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E66AC89F1B2F693800B84A14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E66AC89F1B2F693800B84A14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; tabWidth = 4; };
 		E66AC8A21B2F693800B84A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E66AC8A41B2F693800B84A14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E66AC8A71B2F693800B84A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E66AC8AD1B2F693800B84A14 /* group10tut1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = group10tut1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66AC8B21B2F693800B84A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E66AC8B31B2F693800B84A14 /* group10tut1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = group10tut1Tests.m; sourceTree = "<group>"; };
+		E66AC8BD1B2F705F00B84A14 /* SeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeViewController.h; sourceTree = "<group>"; };
+		E66AC8BE1B2F705F00B84A14 /* SeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeViewController.m; sourceTree = "<group>"; };
+		E66AC8C31B2F7A9C00B84A14 /* ThirdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdController.h; sourceTree = "<group>"; };
+		E66AC8C41B2F7A9C00B84A14 /* ThirdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdController.m; sourceTree = "<group>"; };
+		E66AC8C61B2F7E6500B84A14 /* Big Data.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Big Data.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +89,16 @@
 		E66AC8961B2F693800B84A14 /* group10tut1 */ = {
 			isa = PBXGroup;
 			children = (
+				E66AC8C61B2F7E6500B84A14 /* Big Data.jpg */,
 				E66AC89B1B2F693800B84A14 /* AppDelegate.h */,
 				E66AC89C1B2F693800B84A14 /* AppDelegate.m */,
 				E66AC89E1B2F693800B84A14 /* ViewController.h */,
 				E66AC89F1B2F693800B84A14 /* ViewController.m */,
 				E66AC8A11B2F693800B84A14 /* Main.storyboard */,
+				E66AC8C31B2F7A9C00B84A14 /* ThirdController.h */,
+				E66AC8C41B2F7A9C00B84A14 /* ThirdController.m */,
+				E66AC8BD1B2F705F00B84A14 /* SeViewController.h */,
+				E66AC8BE1B2F705F00B84A14 /* SeViewController.m */,
 				E66AC8A41B2F693800B84A14 /* Images.xcassets */,
 				E66AC8A61B2F693800B84A14 /* LaunchScreen.xib */,
 				E66AC8971B2F693800B84A14 /* Supporting Files */,
@@ -202,6 +215,7 @@
 				E66AC8A31B2F693800B84A14 /* Main.storyboard in Resources */,
 				E66AC8A81B2F693800B84A14 /* LaunchScreen.xib in Resources */,
 				E66AC8A51B2F693800B84A14 /* Images.xcassets in Resources */,
+				E66AC8C71B2F7E6500B84A14 /* Big Data.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66AC8BF1B2F705F00B84A14 /* SeViewController.m in Sources */,
 				E66AC8A01B2F693800B84A14 /* ViewController.m in Sources */,
 				E66AC89D1B2F693800B84A14 /* AppDelegate.m in Sources */,
+				E66AC8C51B2F7A9C00B84A14 /* ThirdController.m in Sources */,
 				E66AC89A1B2F693800B84A14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SeViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)Clickk1:(id)sender {
+    SeViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"SeViewController"];
+    [self presentViewController:controller animated:YES completion:NULL];
 }
 
 @end
